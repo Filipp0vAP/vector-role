@@ -1,4 +1,1 @@
 ---
-- name: Vector installation
-  hosts: vector
-  remote_user: centos
