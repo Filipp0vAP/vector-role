@@ -1,2 +1,4 @@
 ---
-# handlers file for vector-role
+- name: Vector installation
+  hosts: vector
+  remote_user: centos
