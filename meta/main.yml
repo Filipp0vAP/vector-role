@@ -1,4 +1,5 @@
 galaxy_info:
+  role_name: vector-role
   author: Aleksandr Filippov
   description: Installation of Vector
   company: Netology
