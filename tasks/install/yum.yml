@@ -6,6 +6,9 @@
       - "libstdc++"
       - "glibc"
     state: present
+- rpm_key:
+      state: present
+      key: https://repositories.timber.io/public/vector/gpg.3543DB2D0A2BC4B8.key
 - name: Install Vector packages
   become: true
   ansible.builtin.yum:
