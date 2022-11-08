@@ -4,7 +4,7 @@
 
 - name: Install Vector packages
   include_tasks: install/{{ ansible_pkg_mgr }}.yml
-  
+
 - name: copy Vector config
   become: true
   ansible.builtin.template:
@@ -20,3 +20,4 @@
   ansible.builtin.systemd:
     name: vector
     state: started
+  when: ansible_virtualization_type != "docker"
