@@ -1,4 +1,5 @@
 ---
+clickhouse_host_ip: 51.250.86.52
 vector_config_dest: /etc/vector/vector2.yaml
 vector_config:
   sources:

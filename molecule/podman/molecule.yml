@@ -1,0 +1,13 @@
+---
+dependency:
+  name: galaxy
+driver:
+  name: podman
+platforms:
+  - name: centos-8-podman
+    image: quay.io/filipp0vap/netology:centos8-python39
+    pre_build_image: true
+provisioner:
+  name: ansible
+verifier:
+  name: ansible
